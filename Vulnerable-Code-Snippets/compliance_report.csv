@@ -1,0 +1,10 @@
+Filename,Line Number,Issue Severity,Issue Confidence,Issue Text,More Info
+/tmp/tmp1py862i3/Code Examples/Broken_Access_Control.py,19,LOW,MEDIUM,Possible hardcoded password: 'letmein',https://bandit.readthedocs.io/en/1.7.8/plugins/b106_hardcoded_password_funcarg.html
+/tmp/tmp1py862i3/Code Examples/Broken_Access_Control.py,28,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.,https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html
+/tmp/tmp1py862i3/Code Examples/Broken_Access_Control.py,35,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.,https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html
+/tmp/tmp1py862i3/Code Examples/Hardcoded_Password.py,8,LOW,MEDIUM,Possible hardcoded password: 'myPa55word',https://bandit.readthedocs.io/en/1.7.8/plugins/b105_hardcoded_password_string.html
+/tmp/tmp1py862i3/Code Examples/Path_traversal.py,85,MEDIUM,MEDIUM,Possible binding to all interfaces.,https://bandit.readthedocs.io/en/1.7.8/plugins/b104_hardcoded_bind_all_interfaces.html
+/tmp/tmp1py862i3/Code Examples/SSRF.py,11,MEDIUM,LOW,Requests call without timeout,https://bandit.readthedocs.io/en/1.7.8/plugins/b113_request_without_timeout.html
+/tmp/tmp1py862i3/Code Examples/SSRF.py,15,MEDIUM,LOW,Requests call without timeout,https://bandit.readthedocs.io/en/1.7.8/plugins/b113_request_without_timeout.html
+/tmp/tmp1py862i3/Code Examples/command_injection.py,3,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue.",https://bandit.readthedocs.io/en/1.7.8/plugins/b605_start_process_with_a_shell.html
+/tmp/tmp1py862i3/Code Examples/sql_injection.py,12,MEDIUM,MEDIUM,Possible SQL injection vector through string-based query construction.,https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html
