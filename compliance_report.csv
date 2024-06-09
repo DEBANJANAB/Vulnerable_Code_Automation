@@ -2,8 +2,8 @@ File,Line,Severity,Confidence,Issue
 Broken_Access_Control.py,19,LOW,MEDIUM,Possible hardcoded password: 'letmein'
 Broken_Access_Control.py,35,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
 Path_traversal.py,85,MEDIUM,MEDIUM,Possible binding to all interfaces.
-SSRF.py,11,MEDIUM,LOW,Requests call without timeout
 command_injection.py,3,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue."
+SSRF.py,11,MEDIUM,LOW,Requests call without timeout
 SSRF.py,15,MEDIUM,LOW,Requests call without timeout
 sql_injection.py,12,MEDIUM,MEDIUM,Possible SQL injection vector through string-based query construction.
 Hardcoded_Password.py,8,LOW,MEDIUM,Possible hardcoded password: 'myPa55word'
