@@ -16,5 +16,5 @@ low_high_severity.py,4,LOW,HIGH,Consider possible security implications associat
 hardcoded_credentials.py,1,LOW,MEDIUM,Possible hardcoded password: '12345'
 multiple_issues.py,8,LOW,MEDIUM,Possible hardcoded password: 'password123'
 Broken_Access_Control.py,28,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
-low_high_severity.py,25,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
 Broken_Access_Control.py,35,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
+low_high_severity.py,25,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
