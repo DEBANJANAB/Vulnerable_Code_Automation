@@ -1,20 +1,20 @@
 File,Line,Severity,Confidence,Issue
-SSRF.py,11,MEDIUM,LOW,Requests call without timeout
 sql_injection.py,12,MEDIUM,MEDIUM,Possible SQL injection vector through string-based query construction.
-Hardcoded_Password.py,8,LOW,MEDIUM,Possible hardcoded password: 'myPa55word'
-Path_traversal.py,85,MEDIUM,MEDIUM,Possible binding to all interfaces.
-low_high_severity.py,25,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
-Broken_Access_Control.py,19,LOW,MEDIUM,Possible hardcoded password: 'letmein'
-Broken_Access_Control.py,35,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
-multiple_issues.py,41,MEDIUM,HIGH,Use of exec detected.
-low_high_severity.py,38,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue."
-command_injection.py,3,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue."
-low_high_severity.py,4,LOW,HIGH,Consider possible security implications associated with pickle module.
 hardcoded_credentials.py,1,LOW,MEDIUM,Possible hardcoded password: '12345'
-multiple_issues.py,3,LOW,HIGH,Consider possible security implications associated with the subprocess module.
-SSRF.py,15,MEDIUM,LOW,Requests call without timeout
+Broken_Access_Control.py,19,LOW,MEDIUM,Possible hardcoded password: 'letmein'
+SSRF.py,11,MEDIUM,LOW,Requests call without timeout
 multiple_issues.py,12,HIGH,HIGH,Use of weak MD5 hash for security. Consider usedforsecurity=False
+multiple_issues.py,41,MEDIUM,HIGH,Use of exec detected.
+Broken_Access_Control.py,35,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
+low_high_severity.py,4,LOW,HIGH,Consider possible security implications associated with pickle module.
+low_high_severity.py,25,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
+low_high_severity.py,38,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue."
+multiple_issues.py,3,LOW,HIGH,Consider possible security implications associated with the subprocess module.
 multiple_issues.py,16,HIGH,HIGH,"subprocess call with shell=True identified, security issue."
-Broken_Access_Control.py,28,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
 multiple_issues.py,8,LOW,MEDIUM,Possible hardcoded password: 'password123'
+command_injection.py,3,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue."
 low_high_severity.py,34,MEDIUM,HIGH,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+Hardcoded_Password.py,8,LOW,MEDIUM,Possible hardcoded password: 'myPa55word'
+Broken_Access_Control.py,28,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
+Path_traversal.py,85,MEDIUM,MEDIUM,Possible binding to all interfaces.
+SSRF.py,15,MEDIUM,LOW,Requests call without timeout
