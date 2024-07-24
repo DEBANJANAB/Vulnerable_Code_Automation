@@ -7,8 +7,8 @@ low_high_severity.py,38,HIGH,HIGH,"Starting a process with a shell, possible inj
 hardcoded_credentials.py,1,LOW,MEDIUM,Possible hardcoded password: '12345'
 command_injection.py,3,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue."
 multiple_issues.py,12,HIGH,HIGH,Use of weak MD5 hash for security. Consider usedforsecurity=False
-Broken_Access_Control.py,35,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
 sql_injection.py,12,MEDIUM,MEDIUM,Possible SQL injection vector through string-based query construction.
+Broken_Access_Control.py,35,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
 multiple_issues.py,8,LOW,MEDIUM,Possible hardcoded password: 'password123'
 low_high_severity.py,4,LOW,HIGH,Consider possible security implications associated with pickle module.
 Broken_Access_Control.py,19,LOW,MEDIUM,Possible hardcoded password: 'letmein'
