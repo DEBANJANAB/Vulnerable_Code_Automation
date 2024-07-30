@@ -14,7 +14,7 @@ hardcoded_credentials.py,1,LOW,MEDIUM,Possible hardcoded password: '12345'
 low_high_severity.py,38,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue."
 multiple_issues.py,12,HIGH,HIGH,Use of weak MD5 hash for security. Consider usedforsecurity=False
 multiple_issues.py,16,HIGH,HIGH,"subprocess call with shell=True identified, security issue."
-Broken_Access_Control.py,35,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
 sql_injection.py,12,MEDIUM,MEDIUM,Possible SQL injection vector through string-based query construction.
+Broken_Access_Control.py,35,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
 SSRF.py,11,MEDIUM,LOW,Requests call without timeout
 low_high_severity.py,25,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
