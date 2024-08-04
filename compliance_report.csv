@@ -13,8 +13,8 @@ low_high_severity.py,4,LOW,HIGH,Consider possible security implications associat
 multiple_issues.py,8,LOW,MEDIUM,Possible hardcoded password: 'password123'
 Hardcoded_Password.py,8,LOW,MEDIUM,Possible hardcoded password: 'myPa55word'
 command_injection.py,3,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue."
-multiple_issues.py,16,HIGH,HIGH,"subprocess call with shell=True identified, security issue."
 multiple_issues.py,41,MEDIUM,HIGH,Use of exec detected.
+multiple_issues.py,16,HIGH,HIGH,"subprocess call with shell=True identified, security issue."
 SSRF.py,15,MEDIUM,LOW,Requests call without timeout
 low_high_severity.py,34,MEDIUM,HIGH,"Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
 low_high_severity.py,38,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue."
