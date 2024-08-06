@@ -14,7 +14,7 @@ low_high_severity.py,38,HIGH,HIGH,"Starting a process with a shell, possible inj
 sql_injection.py,12,MEDIUM,MEDIUM,Possible SQL injection vector through string-based query construction.
 multiple_issues.py,16,HIGH,HIGH,"subprocess call with shell=True identified, security issue."
 Broken_Access_Control.py,35,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
-command_injection.py,3,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue."
 Hardcoded_Password.py,8,LOW,MEDIUM,Possible hardcoded password: 'myPa55word'
+command_injection.py,3,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue."
 multiple_issues.py,3,LOW,HIGH,Consider possible security implications associated with the subprocess module.
 multiple_issues.py,8,LOW,MEDIUM,Possible hardcoded password: 'password123'
