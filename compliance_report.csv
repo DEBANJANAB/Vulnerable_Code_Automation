@@ -1,6 +1,6 @@
 File,Line,Severity,Confidence,Issue
-SSRF.py,15,MEDIUM,LOW,Requests call without timeout
 command_injection.py,3,HIGH,HIGH,"Starting a process with a shell, possible injection detected, security issue."
+SSRF.py,15,MEDIUM,LOW,Requests call without timeout
 multiple_issues.py,12,HIGH,HIGH,Use of weak MD5 hash for security. Consider usedforsecurity=False
 Broken_Access_Control.py,19,LOW,MEDIUM,Possible hardcoded password: 'letmein'
 low_high_severity.py,25,MEDIUM,LOW,Possible SQL injection vector through string-based query construction.
